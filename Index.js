@@ -1,4 +1,4 @@
-console.log('es6 version for project')
+
 
 
 class Book{
@@ -90,7 +90,7 @@ function libraryFormSubmit(e) {
 
 
     let book = new Book(name, author, type)
-    console.log(book)
+    
      
     let display = new Display()
     if(display.validate(book)){
