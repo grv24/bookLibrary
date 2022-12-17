@@ -14,7 +14,7 @@ class Display{
     //add
      add(book) {
         console.log('add')
-        TableBody = document.getElementById('tablebody')
+        let TableBody = document.getElementById('tablebody')
         let uiString = `
         <tr>
             <th scope="row">-</th>
