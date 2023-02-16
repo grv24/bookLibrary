@@ -98,6 +98,6 @@ function libraryFormSubmit(e) {
         display.clear();
         display.show('Success ',' Wow you are successfully added this book')
     }else{
-        display.show('Danger ',' Sorry you can not added this book')
+        display.show('Sorry ','You can not added this book')
     }
 }
